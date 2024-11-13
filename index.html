@@ -1,0 +1,175 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Home Page</title> 
+    <style>
+      *{
+        margin: 0px;
+        padding: 0;
+        box-sizing:border-box ;
+      }
+      body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./Screenshot 2024-11-08 194619.png') no-repeat center center / cover;
+            color: #ffffff;
+            font-size: 16px;
+        }
+        header {
+            background-color: #C99B6C;
+            color: #1A1210;
+            padding: 25px 0;
+            text-align: center;
+            width: 100%;
+            box-shadow: black;
+        }
+        nav {
+            background-color: #792D17;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+        nav a {
+            color: rgb(255, 255, 255);
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #792D17;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h2 {
+            color: rgb(255, 208, 0);
+            font-family: cursive;
+            font-size: 70px;
+            
+        }
+    
+        button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 228, 13);
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold; 
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+button:hover {
+    background-color: rgb(255, 200, 0); 
+    transform: scale(1.1); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+button:active {
+    background-color: rgb(230, 185, 0);
+    transform: scale(1.05);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); 
+}
+
+button:focus {
+    outline: none; 
+    box-shadow: 0 0 0 3px rgba(252, 228, 13, 0.6); 
+}
+        p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            font-size: 20px;
+        }
+        .mydiv {
+            margin-top: 20px;
+            display: flex;
+            align-items: center; 
+            justify-content: center; 
+        }
+        .corner-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.corner-logo:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+    </style>
+</head>
+<body>
+    <a href="./indext.html">
+        <img src="./logo.png" alt="Logo" class="corner-logo">
+    </a>
+    
+    <header>
+        <h1>Burger Bar</h1>
+    </header>
+
+    <nav>
+        <a href="file:///C:/Users/Admin/OneDrive/Desktop/html/indext.html" target="_main">Home</a>
+        <a href="https://www.instagram.com/jaysupekarr/?hl=en" target="_main">Instagram</a>
+        <a href="https://www.instagram.com/jaysupekarr/?hl=en">Contact</a>
+    </nav>
+
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        <h2 class="101">Welcome</h2>
+        <p id="102">• Order your first burger</p>
+        <p id="103">• enjoy an exclusive 10% discount on your very first order. Treat yourself today!
+        </p>
+        
+       
+        <br><br><br>
+        
+
+        <div class="mydiv">
+            <a href="./sg.html"><button class="1">Order Now</button></a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Thank You.</p>
+    </footer>
+</body>
+</html>
+
