@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Bar</title> 
+    <style>
+        /* General Reset and Header styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            color: #1A1210;
+            padding: 15px 0;
+            text-align: center;
+            background-color: #C99B6C;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #792D17;
+            padding: 5px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Container and Footer Styles */
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #792D17;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+       
+        h1 {
+           font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #1A1210;
+           
+            text-align: center;
+        }
+        p {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+        }
+
+       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./Screenshot 2024-11-08 194619.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            line-height: 1.6;
+        }
+
+     
+        img {
+            margin: 20px;
+            border-radius: 10px;
+            border: 2px solid #ffffff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05); 
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+        }
+        .corner-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.corner-logo:hover {
+    transform: scale(1.1); 
+    
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Place Your Order</h1> 
+        <a href="./indext.html">
+            <img src="./logo.png" alt="Logo" class="corner-logo">
+        </a>
+    </header>
+    
+    
+    <nav>
+        <a href="./indext.html" target="_main">Home</a>
+        <a href="https://www.instagram.com/jaysupekarr/?hl=en" target="_main">Instagram</a>
+        <a href="https://www.instagram.com/jaysupekarr/?hl=en">Contact</a>
+    </nav>
+
+    <div class="container">
+        <a href="./clasic burger.html">
+            <img src="./clasic burger.png" alt="Classic Burger" /> 
+        </a>
+
+        <a href="./c burger.html">
+            <img src="./chess burgae.png" alt="Cheese Burger" />
+        </a>
+    
+        <a href="./veggie burger.html">
+            <img src="./veg burger.jpg" alt="Veggie Burger" style="width: 500px; height: auto;" /> 
+        </a>
+        
+    </div>
+    
+   
+    <footer>
+        <p>Thank you for visiting!</p>
+    </footer>
+
+</body>
+</html>
